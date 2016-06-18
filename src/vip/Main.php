@@ -19,20 +19,21 @@ class Main extends PluginBase{
 			if(strtolower($command->getName()) === 'vip') {
 				if(empty($args)) {
 					$sender->sendMessage("[§7========§e[VIP]§7 ==========]");
-					$sender->sendMessage("• Komedny: /back, /near, /time set [day] lub [night]");
-					$sender->sendMessage("text2");
-					$sender->sendMessage("text3");
-					$sender->sendMessage("text4");
-					$sender->sendMessage("text5");
-					$sender->sendMessage("§7[ ========== §cvip§7 ========== ]");
+					$sender->sendMessage("•§c Komedny: /back, /near, /time set [day] lub [night]");
+					$sender->sendMessage("•§c /me");
+					$sender->sendMessage("•§c Itemy: żelazna zbroja oraz narzędzia 20 diax");
+					$sender->sendMessage("•§c 20 złota oraz 20 srebra");
+					$sender->sendMessage("•§c Oraz rangę §eVIP. By zakupić wpisz /vip kup!");
+					$sender->sendMessage("[§7========§e[VIP]§7 ==========]");
 					return true;
 				}
 					 if($args[0] == "kup") {
-                                        $sender->sendMessage("text1");
-                                        $sender->sendMessage("text2");
-                                        $sender->sendMessage("text3");
-                                        $sender->sendMessage("text4");
-                                        $sender->sendMessage("text5");
+                                        $sender->sendMessage("•§7[========§a[ZAKUP]§7========]");
+                                        $sender->sendMessage("•§a Aby zakupić §eVIP'a wyślij sms'a");
+                                        $sender->sendMessage("•§a o treści SIM.MINTS pod numer 7455");
+                                        $sender->sendMessage("•§a koszt tylko 4.92zl! Otrzymany numer");
+                                        $sender->sendMessage("•§a podaj tylko i wyłącznie Apple3910 oraz ThePlastus");
+                                        $sender->sendMessage("•§a Udanej zabawy z ranga VIP!");
                                 }
 	}
 }
