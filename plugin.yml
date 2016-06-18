@@ -7,7 +7,7 @@ website: EasyPe.pl
 
 commands:
   vip:
-    usage: /vip
+    Uzyj: /vip
     description: "Komenda na zakup vipa"
     permission: vip.command
 permissions:
