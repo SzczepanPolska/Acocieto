@@ -12,11 +12,11 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase{
 	public function onEnable(){
-		$this->getLogger()->info("CobblexKup Zaladowane");
+		$this->getLogger()->info("vipkup Zaladowane");
 		}
 
   public function onCommand(CommandSender $sender, Command $command, $label, array $args){	
-			if(strtolower($command->getName('cobblex'))) {
+			if(strtolower($command->getName('vip'))) {
 				if(empty($args)) {
 					$sender->sendMessage("§7[ ========== §eCOBBLEX§7 ========== ]");
 					$sender->sendMessage("§7Co to jest §eCOBBLEX?");
