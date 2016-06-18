@@ -31,3 +31,6 @@ class Main extends PluginBase{
 				}
 					 if($args[0] == "kup") {
 					 if$sender->sendMessage("jejejejejrhrjrjrjrjr");
+	}
+}
+}
