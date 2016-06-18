@@ -5,8 +5,6 @@ namespace vip;
 use pocketmine\Player;
 use pocketmine\Server;
 use pocketmine\event\Listener;
-use pocketmine\inventory\Inventory;
-use pocketmine\item\Item;
 use pocketmine\command\ConsoleCommandSender;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
@@ -30,7 +28,7 @@ class Main extends PluginBase{
 					return true;
 				}
 					 if($args[0] == "kup") {
-					 if$sender->sendMessage("jejejejejrhrjrjrjrjr");
+                                        $sender->sendMessage("jejejejejrhrjrjrjrjr");
 	}
 }
 }
