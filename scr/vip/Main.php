@@ -18,13 +18,13 @@ class Main extends PluginBase{
   public function onCommand(CommandSender $sender, Command $command, $label, array $args){	
 			if(strtolower($command->getName('vip'))) {
 				if(empty($args)) {
-					$sender->sendMessage("§7[ ========== §eCOBBLEX§7 ========== ]");
-					$sender->sendMessage("§7Co to jest §eCOBBLEX?");
-					$sender->sendMessage("§o§a  * Jest to blok ktory po postawieniu daje losowe");
-					$sender->sendMessage("§o§a  * itemy:");
-					$sender->sendMessage("§7Aby kupic wpisz:");
-					$sender->sendMessage("§o§a  * /cobblex kup §6- §o§cKoszt: 7 stakow cobbla");
-					$sender->sendMessage("§7[ ========== §eCOBBLEX§7 ========== ]");
+					$sender->sendMessage("§7[ ========== §vip§7 ========== ]");
+					$sender->sendMessage("§7meheejj?");
+					$sender->sendMessage("§o§a  * lewej");
+					$sender->sendMessage("§o§a  * dher:");
+					$sender->sendMessage("§7 djejs:");
+					$sender->sendMessage("§o§a  * jdjshd");
+					$sender->sendMessage("§7[ ========== §vip§7 ========== ]");
 					return true;
 				}
 					 if($args[0] == "kup") {
