@@ -1,6 +1,6 @@
 <?php
 
-namespace vip;
+namespace svip;
 
 use pocketmine\Player;
 use pocketmine\Server;
