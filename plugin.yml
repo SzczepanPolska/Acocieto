@@ -6,8 +6,8 @@ author: Apple3910
 website: EasyPe.pl
 
 commands:
-  vip:
-    Uzyj: /vip
+  svip:
+    Uzyj: /svip
     description: "Komenda na zakup vipa"
     permission: vip.command
 permissions:
