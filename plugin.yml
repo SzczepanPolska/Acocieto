@@ -1,0 +1,16 @@
+name: DirtexKUP
+main: DirtexKUP\Main
+api: 1.13.1
+version: 1.0.0
+author: Apple3910
+website: EasyPe.pl
+
+commands:
+  vip:
+    usage: /vip
+    description: "Komenda na zakup vipa"
+    permission: vip.command
+permissions:
+  vip.command:
+    default: true
+    description: "Premisje do uzywania komend"
