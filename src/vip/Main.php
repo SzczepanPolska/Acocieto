@@ -18,7 +18,7 @@ class Main extends PluginBase{
   public function onCommand(CommandSender $sender, Command $command, $label, array $args){	
 			if(strtolower($command->getName()) === 'vip') {
 				if(empty($args)) {
-					$sender->sendMessage("•[§7==================§e[VIP]§7=====================]•");
+					$sender->sendMessage("•[§7==================§e[VIP]§7===================]•");
 					$sender->sendMessage("•§a Komendy: /back, /near, /time set [day] lub [night]");
 					$sender->sendMessage("•§a , /me");
 					$sender->sendMessage("•§a Itemy: żelazna zbroja oraz narzędzia 20 diax");
