@@ -33,6 +33,7 @@ class Main extends PluginBase{
                                         $sender->sendMessage("text3");
                                         $sender->sendMessage("text4");
                                         $sender->sendMessage("text5");
+                                }
 	}
 }
 }
