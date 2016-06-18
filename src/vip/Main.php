@@ -18,17 +18,17 @@ class Main extends PluginBase{
   public function onCommand(CommandSender $sender, Command $command, $label, array $args){	
 			if(strtolower($command->getName()) === 'vip') {
 				if(empty($args)) {
-					$sender->sendMessage("[§7========§e[VIP]§7 ==========]");
-					$sender->sendMessage("•§c Komedny: /back, /near, /time set [day] lub [night]");
-					$sender->sendMessage("•§c /me");
-					$sender->sendMessage("•§c Itemy: żelazna zbroja oraz narzędzia 20 diax");
-					$sender->sendMessage("•§c 20 złota oraz 20 srebra");
-					$sender->sendMessage("•§c Oraz rangę §eVIP. By zakupić wpisz /vip kup!");
-					$sender->sendMessage("[§7========§e[VIP]§7 ==========]");
+					$sender->sendMessage("•[§7==================§e[VIP]§7=====================]•");
+					$sender->sendMessage("•§a Komendy: /back, /near, /time set [day] lub [night]");
+					$sender->sendMessage("•§a , /me");
+					$sender->sendMessage("•§a Itemy: żelazna zbroja oraz narzędzia 20 diax");
+					$sender->sendMessage("•§a 20 złota oraz 20 srebra");
+					$sender->sendMessage("•§a Oraz rangę §eVIP. By zakupić wpisz /vip kup!");
+					$sender->sendMessage("•[§7==================§e[VIP]§7==================]•");
 					return true;
 				}
 					 if($args[0] == "kup") {
-                                        $sender->sendMessage("•§7[========§a[ZAKUP]§7========]");
+                                        $sender->sendMessage("•§7[===================§a[ZAKUP]§7===================]");
                                         $sender->sendMessage("•§a Aby zakupić §eVIP'a wyślij sms'a");
                                         $sender->sendMessage("•§a o treści SIM.MINTS pod numer 7455");
                                         $sender->sendMessage("•§a koszt tylko 4.92zl! Otrzymany numer");
