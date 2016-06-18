@@ -18,8 +18,8 @@ class Main extends PluginBase{
   public function onCommand(CommandSender $sender, Command $command, $label, array $args){	
 			if(strtolower($command->getName()) === 'vip') {
 				if(empty($args)) {
-					$sender->sendMessage("§7[ ========== §cvip§7 ========== ]");
-					$sender->sendMessage("text1");
+					$sender->sendMessage("[§7========§e[VIP]§7 ==========]");
+					$sender->sendMessage("• Komedny: /back, /near, /time set [day] lub [night]");
 					$sender->sendMessage("text2");
 					$sender->sendMessage("text3");
 					$sender->sendMessage("text4");
