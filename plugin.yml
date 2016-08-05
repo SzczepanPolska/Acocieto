@@ -6,9 +6,9 @@ author: Apple3910
 website: EasyPe.pl
 
 commands:
-  svip:
-    Uzyj: /svip
-    description: "Komenda na zakup vipa"
+  sponsor:
+    Uzyj: /sponsor
+    description: "Komenda na zakup sponsora"
     permission: vip.command
 permissions:
   vip.command:
